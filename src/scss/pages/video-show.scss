@@ -2,6 +2,13 @@
   padding: 0;
 }
 
+.iframe-box__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to left, rgba(242, 148, 146, 0.5), rgba(242, 148, 146, 0.9));
+}
+
 .video-information {
   color: $font-color;
 }
