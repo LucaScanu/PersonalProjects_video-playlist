@@ -73,10 +73,14 @@ The app must also be deployed to heroku.
 - Search functionality.
 - Pagination.
 
-### 3. Environment Setup
+### 3. Server / Environment Setup
 
 - will be using npm as a package manager and bower to manage my front end libraries.
 - will try and write as much of my back end stuff in es6 as possible without additional tools as I'm getting a little rusty with it.
+- have used a gulp setup from a previous project.
+- using node js and express to server the application.
+- also using the file structure taught to me on the course, helps to reason with code and make it more organised.
+- using skeleton for its grid and responsiveness.
 
 ### 5. Express API
 
