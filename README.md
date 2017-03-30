@@ -85,7 +85,10 @@ The app must also be deployed to heroku.
 ### 4. HTML and SCSS Wireframes
 
 - starting from the mobile index page. Will be using skeletons grid system.
-- starting with creating angular views for each page (home, index and show).
+- starting with creating angular views for each page (home, index and show) and router.
+- was going to use skeleton but cannot control number of columns exactly through breakpoints.
+- then thought pure css but no responsive images or video
+- will use bootstrap
 
 ### 6. Angular Front-end
 
