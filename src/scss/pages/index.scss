@@ -1,0 +1,15 @@
+.video-box {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: $video-box-image;
+  background-size: cover;
+  color: white;
+}
+
+.video-box--big {
+  height: $video-box--big-height;
+}
+
+.video-box--small {
+  height: $video-box--small-height;
+}

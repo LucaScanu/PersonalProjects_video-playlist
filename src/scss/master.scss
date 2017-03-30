@@ -2,22 +2,16 @@
 @import "vendor/bootstrap.min.scss";
 
 // GENERAL
-// @import "variables";
+@import "variables";
 // @import "structure";
-// @import "general";
+@import "general";
 
 // PARTIALS
 // @import "modules/navbar";
 
 //PAGES
-// @import "pages/dashboard";
+@import "pages/index";
 // @import "pages/modelSheets";
 // @import "pages/login";
 // @import "pages/register";
 // @import "pages/company-summary";
-
-
-
-body {
-  background: pink
-}

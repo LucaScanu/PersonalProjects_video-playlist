@@ -14,10 +14,10 @@ function homeRouter($stateProvider, $locationProvider){
     })
     .state('index', {
       url: '/index',
-      templateUrl: 'js/views/index.html'
+      templateUrl: 'js/views/video-index.html'
     })
     .state('show', {
       url: '/show',
-      templateUrl: 'js/views/show.html'
+      templateUrl: 'js/views/video-show.html'
     });
 }
