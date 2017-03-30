@@ -88,7 +88,9 @@ The app must also be deployed to heroku.
 - starting with creating angular views for each page (home, index and show) and router.
 - was going to use skeleton but cannot control number of columns exactly through breakpoints.
 - then thought pure css but no responsive images or video
-- will use bootstrap
+- will use bootstrap now.
+- wireframes taking longer than expected
+- accessibility and cross broswer compatability will need to be introduced asap.
 
 ### 6. Angular Front-end
 

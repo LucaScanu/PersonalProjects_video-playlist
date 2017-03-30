@@ -1,0 +1,36 @@
+.video-index-header{
+  color: $font-color;
+  background-image: linear-gradient(to left, rgba(179, 255, 171, 0.5), rgba(18, 255, 247, 0.9)),$video-box-image;
+}
+.video-index-header__title{
+  margin: 0;
+}
+
+.video-box {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: linear-gradient(to left, rgba(242, 148, 146, 0.5), rgba(242, 148, 146, 0.9)),$video-box-image;
+  background-size: cover;
+  color: $font-color;
+  text-align: center;
+}
+
+.video-box--big {
+  height: $video-box--big-height;
+  padding-top: ($video-box--big-height/2)-($video-box--big-font-size/2)
+}
+
+.video-box--big__title {
+  font-size: $video-box--big-font-size;
+  margin: 0;
+}
+
+.video-box--small {
+  height: $video-box--small-height;
+  padding-top: ($video-box--small-height/2)-($video-box--small-font-size/2)
+}
+
+.video-box--small__title {
+  font-size: $video-box--small-font-size;
+  margin: 0;
+}
