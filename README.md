@@ -22,6 +22,8 @@ Node.js, Express, ES6 (where possible).
 
 npm, bower, gulp, git, GitHub, insomnia.
 
+- using [this](http://nvie.com/posts/a-successful-git-branching-model/) git branching model to a degree.
+
 ## Process
 
 1. Fleshed out wireframe.
