@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="video-playlist">
   <head>
     <meta charset="utf-8">
+    <base href="/">
     <title>Hi</title>
     <!-- inject:js -->
     <script src="js/app.js"></script>
@@ -10,7 +11,20 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- endinject -->
   </head>
-  <body>
-    <h1>Hi</h1>
+  <body ng-controller="MainCtrl as main">
+    <header>
+      <div class="container">
+        <div class="row">
+          <a ui-sref="home">Home</a>
+          <a ui-sref="index">Index</a>
+          <a ui-sref="show">Show</a>
+        </div>
+      </div>
+    </header>
+    <main ui-view>
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>

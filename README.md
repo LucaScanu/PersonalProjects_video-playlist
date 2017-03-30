@@ -82,7 +82,10 @@ The app must also be deployed to heroku.
 - also using the file structure taught to me on the course, helps to reason with code and make it more organised.
 - using skeleton for its grid and responsiveness.
 
-### 5. Express API
+### 4. HTML and SCSS Wireframes
+
+- starting from the mobile index page. Will be using skeletons grid system.
+- starting with creating angular views for each page (home, index and show).
 
 ### 6. Angular Front-end
 
