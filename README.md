@@ -12,7 +12,7 @@ ___
 
 ### Front-End
 
-HTML, SCSS, BEM class naming convention (partially), JavaScript and Angular 1.
+HTML, SCSS, skeleton, BEM class naming convention (partially), JavaScript and Angular 1.
 
 ### Back-End
 
@@ -20,13 +20,13 @@ Node.js, Express.
 
 ### Development
 
-gulp, git, GitHub, insomnia.
+npm, bower, gulp, git, GitHub, insomnia.
 
 ## Process
 
 1. Fleshed out wireframe.
-
 2. Defined MVP features.
+3. Environment setup.
 3. Created express web server to serve static files.
 4. Built wireframe in HTML and CSS.
 5. Created backend API and database.
@@ -56,7 +56,7 @@ I used balasmiq to create a single wire frame which I think should be enough, pa
 
 ### 2. Features
 
-### 2.1 MVP
+#### 2.1 MVP
 
 - Video index page and show pages which follow the theme of the above wireframe.
 - All video controls will be provided by Youtube embedded or similar.
@@ -65,13 +65,13 @@ The above must be built with a mobile first approach, be cross browser compatibl
 
 The app must also be deployed to heroku.
 
-### 2.2 Nice to Have
+#### 2.2 Nice to Have
 
 - Landing page / slick animation to index page.
 - Search functionality.
 - Pagination.
 
-### 4. Wireframes in HTML and CSS
+### 3. Environment Setup
 
 ### 5. Express API
 

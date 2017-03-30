@@ -1,0 +1,22 @@
+{
+  "name": "personalprojects_video-playlist",
+  "version": "1.0.0",
+  "description": "<img width=\"595\" alt=\"screen shot 2017-03-27 at 12 28 56\" src=\"https://cloud.githubusercontent.com/assets/20629455/24354324/313f6180-12e9-11e7-94dd-5edcb7914260.png\">",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackhkmatthews/PersonalProjects_video-playlist.git"
+  },
+  "author": "Jack Matthews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackhkmatthews/PersonalProjects_video-playlist/issues"
+  },
+  "homepage": "https://github.com/jackhkmatthews/PersonalProjects_video-playlist#readme"
+}
