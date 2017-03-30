@@ -1,9 +1,11 @@
 .video-index-header{
   color: $font-color;
-  background-image: linear-gradient(to left, rgba(179, 255, 171, 0.5), rgba(18, 255, 247, 0.9)),$video-box-image;
+  height: $header-height;
 }
 .video-index-header__title{
   margin: 0;
+  line-height: $header-height;
+  text-align: center;
 }
 
 .video-box {
