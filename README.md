@@ -12,11 +12,11 @@ ___
 
 ### Front-End
 
-HTML, SCSS, skeleton, BEM class naming convention (partially), JavaScript and Angular 1.
+HTML, SCSS, skeleton, BEM class naming convention (partially), JavaScript and Angular 1, ES6 (where possible).
 
 ### Back-End
 
-Node.js, Express.
+Node.js, Express, ES6 (where possible).
 
 ### Development
 
@@ -72,6 +72,9 @@ The app must also be deployed to heroku.
 - Pagination.
 
 ### 3. Environment Setup
+
+- will be using npm as a package manager and bower to manage my front end libraries.
+- will try and write as much of my back end stuff in es6 as possible without additional tools as I'm getting a little rusty with it.
 
 ### 5. Express API
 
