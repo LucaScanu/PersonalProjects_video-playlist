@@ -46,6 +46,7 @@ Given the time constraints of the project I decided to cherry pick features and 
 From those pins I liked how iPlayer and 4od have the first video in the playlist larger than the others. I also liked the player which had a title and gradient overlay on top of the thumbnails (both below).
 
 <img width="1362" alt="screen shot 2017-03-30 at 11 26 36" src="https://cloud.githubusercontent.com/assets/20629455/24500027/c45a2514-153b-11e7-9564-f5ece82d2012.png">
+
 ![screen shot 2017-03-30 at 11 25 53](https://cloud.githubusercontent.com/assets/20629455/24500041/da1de0a2-153b-11e7-877b-5c8e3696b6de.png)
 
 I used balasmiq to create a single wire frame which I think should be enough, paired with the provided wireframes, to begin building the app.
