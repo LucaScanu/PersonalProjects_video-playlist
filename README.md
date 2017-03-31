@@ -91,6 +91,8 @@ The app must also be deployed to heroku.
 - will use bootstrap now.
 - wireframes taking longer than expected
 - accessibility and cross broswer compatability will need to be introduced asap.
+- trying to figure out what I want from the show page, definitely want some sort of overlay on the video / custom controls, maybe simialar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
+- refocus on mvp
 
 ### 6. Angular Front-end
 

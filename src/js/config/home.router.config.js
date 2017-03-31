@@ -18,6 +18,7 @@ function homeRouter($stateProvider, $locationProvider){
     })
     .state('show', {
       url: '/show',
-      templateUrl: 'js/views/video-show.html'
+      templateUrl: 'js/views/video-show.html',
+      controller: 'VideosShowCtrl as videoShow'
     });
 }
