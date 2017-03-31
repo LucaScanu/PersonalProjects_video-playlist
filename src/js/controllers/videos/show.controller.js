@@ -22,7 +22,7 @@ function VideosShowCtrl(Video, $stateParams, $sce){
     '250, 255, 209'
   ];
 
-  vm.index = $stateParams.index;
+  vm.index = parseInt($stateParams.index);
 
   Video
   .get()

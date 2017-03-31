@@ -33,4 +33,6 @@ function VideosIndexCtrl(Video){
       console.log(vm.otherVideos);
     });
 
+  vm.randomVideoIndex = Math.floor(Math.random() * (10 - 0)) + 0;
+
 }

@@ -1,13 +1,13 @@
 <div class="container-fluid">
   <div class="row video-index-header">
     <div class="col-xs-4">
-      <h3 class="video-index-header__title">Prev</h3>
+      <h3 ui-sref="show({ index: {{videoShow.index - 1}} })" class="video-index-header__title">Prev</h3>
     </div>
     <div class="col-xs-4">
-      <h1 class="video-index-header__title">Playlist</h1>
+      <h1 ui-sref="index" class="video-index-header__title">Playlist</h1>
     </div>
     <div class="col-xs-4">
-      <h3 class="video-index-header__title">Next</h3>
+      <h3 ui-sref="show({ index: {{videoShow.index + 1}} })" class="video-index-header__title">Next</h3>
     </div>
   </div>
   <div class="row">
