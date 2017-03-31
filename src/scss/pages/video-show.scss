@@ -2,6 +2,22 @@
   padding: 0;
 }
 
+.image {
+  padding-bottom: 56.25%;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .video-information {
   color: $font-color;
 }
