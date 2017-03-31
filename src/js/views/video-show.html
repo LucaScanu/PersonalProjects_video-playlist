@@ -6,12 +6,11 @@
   </div>
   <div class="row">
     <div class="col-xs-12 iframe-box">
-      <!-- <h1 class="video-box--big__title">video 1</h1>
-      <p>10 October 2017</p> -->
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe id="ytplayer" type="text/html" width="640" height="360"
-    src="https://www.youtube.com/embed/M7lc1UVf-VE?origin=http://example.com&controls=1"
-    frameborder="0"></iframe>
+        <!-- <iframe id="ytplayer" type="text/html" width="640" height="360"
+    src="https://www.youtube.com/embed/{{videoShow.video.contentDetails.videoId}}?origin=http://example.com&controls=1"
+    frameborder="0"></iframe> -->
+        <iframe id="ytplayer" type="text/html" width="640" height="360" src="{{videoShow.trustedSrc}}" frameborder="0"></iframe>
       </div>
     </div>
   </div>
