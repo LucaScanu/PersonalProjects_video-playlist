@@ -120,6 +120,9 @@ The app must also be deployed to heroku.
 - mvp nav bar also created with random video function.
 - POA, a tiny bit further polish (colour scheme). Then refactor all HTML, SCSS and JS. Start thinking about accessability then optimisation, then cross browser, then responsive, then pagination?
 
+<img width="1375" alt="screen shot 2017-03-31 at 17 00 07" src="https://cloud.githubusercontent.com/assets/20629455/24558694/f4464782-1633-11e7-9596-279e73e10bcf.png">
+<img width="1375" alt="screen shot 2017-03-31 at 16 59 59" src="https://cloud.githubusercontent.com/assets/20629455/24558695/f4575662-1633-11e7-800c-e74eb50d2f88.png">
+
 ### 8. Polishing Code
 
 ### 9. Improve design
