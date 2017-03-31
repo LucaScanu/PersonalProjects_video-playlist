@@ -11,8 +11,11 @@ function VideosIndexCtrl(Video){
     .get()
     .$promise
     .then(response => {
-      vm.videos = response.items;
-      console.log(vm.videos);
+      vm.firstVideo = response.items[0];
+      vm.otherVideos = response.items.filter((video, index) => {
+        return (index !== 0);
+      });
+      console.log(vm.otherVideos);
     });
 
 }

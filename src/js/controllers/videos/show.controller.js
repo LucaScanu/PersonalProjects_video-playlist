@@ -2,7 +2,7 @@ angular
 .module('video-playlist')
 .controller('VideosShowCtrl', VideosShowCtrl);
 
-VideosShowCtrl.$inject = [];
+VideosShowCtrl.$inject = ['$stateParams'];
 function VideosShowCtrl(){
   console.log('VideosShowCtrl');
   const vm = this;

@@ -18,7 +18,7 @@ function homeRouter($stateProvider, $locationProvider){
       controller: 'VideosIndexCtrl as videoIndex'
     })
     .state('show', {
-      url: '/show',
+      url: '/show/:index',
       templateUrl: 'js/views/video-show.html',
       controller: 'VideosShowCtrl as videoShow'
     });
