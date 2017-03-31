@@ -98,7 +98,11 @@ The app must also be deployed to heroku.
 
 - will first make a factory for the video playlist requests
 
-### 7. More Detailed Designs
+<img width="1347" alt="screen shot 2017-03-31 at 11 49 16" src="https://cloud.githubusercontent.com/assets/20629455/24547586/82df17a2-1608-11e7-9627-3df23f3cbb15.png">
+<img width="1375" alt="screen shot 2017-03-31 at 11 49 26" src="https://cloud.githubusercontent.com/assets/20629455/24547585/82cba884-1608-11e7-995a-a429dede8891.png">
+
+
+### 6. More Detailed Designs
 
 ### 8. Implementing New Design
 
