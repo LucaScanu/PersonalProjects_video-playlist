@@ -110,16 +110,20 @@ The app must also be deployed to heroku.
 <img width="1375" alt="screen shot 2017-03-31 at 11 49 26" src="https://cloud.githubusercontent.com/assets/20629455/24547585/82cba884-1608-11e7-995a-a429dede8891.png">
 
 
-### 6. More Detailed Designs
+### 6. Polishing Design
 
 - not happy with it, not sure where to take it. Feel like I need more of a header.
 - will start on index page. correct thumbnails, different overlays, date and see how I feel then.
 - just learned that you should use padding to make the height of things related to width. SICK
 - trying to get an effect on the show page similar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
 - managed it kinda. super happy carried over colour form index page as well.
+- mvp nav bar also created with random video function.
+- POA, a tiny bit further polish (colour scheme). Then refactor all HTML, SCSS and JS. Start thinking about accessability then optimisation, then cross browser, then responsive, then pagination?
 
-### 8. Implementing New Design
+### 8. Polishing Code
 
-### 9. Making It My Own
+### 9. Improve design
+
+### 10. Add features
 
 ## Known Issues To Be Addressed
