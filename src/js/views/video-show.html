@@ -17,7 +17,7 @@
   <div class="row">
     <div class="col-xs-12 video-information">
       <h1 class="video-information__title">{{videoShow.video.snippet.title}}</h1>
-      <p class="video-information__published">{{videoShow.video.snippet.publishedAt}}</p>
+      <p class="video-information__published">{{ videoShow.video.snippet.publishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
       <p class="video-information__description">{{videoShow.video.snippet.description}}</p>
     </div>
   </div>
