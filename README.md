@@ -91,12 +91,20 @@ The app must also be deployed to heroku.
 - will use bootstrap now.
 - wireframes taking longer than expected
 - accessibility and cross broswer compatability will need to be introduced asap.
-- trying to figure out what I want from the show page, definitely want some sort of overlay on the video / custom controls, maybe simialar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
+- trying to figure out what I want from the show page, definitely want some sort of overlay on the video / custom controls, maybe similar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
 - refocus on mvp
+
+<img width="1375" alt="screen shot 2017-03-31 at 11 48 05" src="https://cloud.githubusercontent.com/assets/20629455/24547697/0ffd4514-1609-11e7-918d-1fd691b85dc4.png">
+
+<img width="1375" alt="screen shot 2017-03-31 at 11 48 12" src="https://cloud.githubusercontent.com/assets/20629455/24547696/0ffbab78-1609-11e7-834e-51ba0a654f7b.png">
+
 
 ### 5. Real Data
 
 - will first make a factory for the video playlist requests
+- had to use filter to seperate first video from later videos
+- pass index as parameter to allow correct video to be selected on video show page
+- ran into security issues as was interpolating in a src attribute, researched and found $sce solution.
 
 <img width="1347" alt="screen shot 2017-03-31 at 11 49 16" src="https://cloud.githubusercontent.com/assets/20629455/24547586/82df17a2-1608-11e7-9627-3df23f3cbb15.png">
 <img width="1375" alt="screen shot 2017-03-31 at 11 49 26" src="https://cloud.githubusercontent.com/assets/20629455/24547585/82cba884-1608-11e7-995a-a429dede8891.png">
