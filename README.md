@@ -116,6 +116,7 @@ The app must also be deployed to heroku.
 - will start on index page. correct thumbnails, different overlays, date and see how I feel then.
 - just learned that you should use padding to make the height of things related to width. SICK
 - trying to get an effect on the show page similar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
+- managed it kinda. super happy carried over colour form index page as well.
 
 ### 8. Implementing New Design
 
