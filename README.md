@@ -94,7 +94,9 @@ The app must also be deployed to heroku.
 - trying to figure out what I want from the show page, definitely want some sort of overlay on the video / custom controls, maybe simialar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
 - refocus on mvp
 
-### 6. Angular Front-end
+### 5. Real Data
+
+- will first make a factory for the video playlist requests
 
 ### 7. More Detailed Designs
 
