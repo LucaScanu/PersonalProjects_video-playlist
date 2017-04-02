@@ -142,9 +142,18 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 - symantic elemtns, roles, aria lables, tab index
 - make sure all current features actually work then optimisation of images, then cross browser, then gracefull degredation.
 - fixed prev and next buttons, had to use onclick indtead of ui-sref as ui-sref is read straight away and I need to get a response from the server first
+- not much of an issue with loading images. have already solved iframe slow loading but not loading until user presses play.
+
+![screen shot 2017-04-02 at 15 51 48](https://cloud.githubusercontent.com/assets/20629455/24588223/4efae910-17bc-11e7-9ca7-8786afbde08d.png)
+
+- want to do crossbrowser check, looks like this requires deployment.
+
+### 9. Deployment
 
 ### 9. Responsive design
 
 ### 10. Add features
+
+animation in of tiles / between views
 
 ## Known Issues To Be Addressed
