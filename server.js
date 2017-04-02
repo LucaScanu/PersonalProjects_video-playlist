@@ -13,4 +13,6 @@ app.use('/', express.static('bower_components'));
 
 app.get('/index.html', (req, res) => res.sendFile(`${__dirname}/public/index.html`));
 
+app.get('/js/views/video-index.html', (req, res) => res.sendFile(`${__dirname}/public/js/views/video-index.html`));
+
 app.listen(config.port, () => console.log(`listening on ${config.port}`));
