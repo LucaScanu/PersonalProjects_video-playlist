@@ -131,7 +131,15 @@ The app must also be deployed to heroku.
 
 ### 8. Polishing Code
 
+- refactoring and commenting js.
+- html accessibiltie now.
+- https://www.youtube.com/watch?v=x18vEEfpK3g
+- html5 semantic elements
+- group relevant things togeather
 
+https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
+
+- symantic elemtns, roles, aria lables, tab index
 
 ### 9. Improve design
 

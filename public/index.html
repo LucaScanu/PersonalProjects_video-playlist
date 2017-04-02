@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <base href="/">
-    <title>Hi</title>
+    <title>Playlist</title>
     <meta name="viewport" content="width=device-width">
     <script src="https://use.fontawesome.com/341518d27d.js"></script>
     <!-- inject:js -->
@@ -14,10 +14,13 @@
     <!-- endinject -->
   </head>
   <body ng-controller="MainCtrl as main">
-    <main ui-view>
-      JavaScript is requried to use this webpage.
-    </main>
-    <footer>
+    <div class="footer-pusher">
+      <div ui-view>
+        JavaScript is requried to use this webpage.
+      </div>
+    </div>
+    <footer class="copy-information">
+      <p>Copyright (c) 2016 PLAYLIST.</p>
     </footer>
   </body>
 </html>
