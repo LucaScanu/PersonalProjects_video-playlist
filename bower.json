@@ -1,7 +1,7 @@
 {
   "name": "personalprojects_video-playlist",
   "description": "<img width=\"595\" alt=\"screen shot 2017-03-27 at 12 28 56\" src=\"https://cloud.githubusercontent.com/assets/20629455/24354324/313f6180-12e9-11e7-94dd-5edcb7914260.png\">",
-  "main": "server.js",
+  "main": "index.js",
   "authors": [
     "Jack Matthews"
   ],

@@ -1,8 +1,8 @@
 {
-  "name": "personalprojects_video-playlist",
+  "name": "video-playlist",
   "version": "1.0.0",
-  "description": "A simple app with consumes data from a YouTube API and displays the information.",
-  "main": "server.js",
+  "description": "Simple YouTube API app",
+  "main": "index.js",
   "gulp": {
     "srcDir": "src/",
     "destDir": "public/",
@@ -21,8 +21,8 @@
     "main": {
       "js": "app.js",
       "index": "index.html",
-      "scss": "master.scss",
-      "server": "server.js",
+      "scss": "style.scss",
+      "server": "index.js",
       "gulpfile": "gulpfile.js",
       "packageJson": "package.json"
     },
@@ -45,7 +45,19 @@
     }
   },
   "dependencies": {
-    "express": "^4.15.2"
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "jsonwebtoken": "^7.2.1",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.9",
+    "morgan": "^1.7.0",
+    "nodemailer": "^2.7.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "sendgrid": "^4.7.1",
+    "validator": "^6.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
