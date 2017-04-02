@@ -1,7 +1,7 @@
 {
   "name": "personalprojects_video-playlist",
   "version": "1.0.0",
-  "description": "<img width=\"595\" alt=\"screen shot 2017-03-27 at 12 28 56\" src=\"https://cloud.githubusercontent.com/assets/20629455/24354324/313f6180-12e9-11e7-94dd-5edcb7914260.png\">",
+  "description": "A simple app with consumes data from a YouTube API and displays the information.",
   "main": "server.js",
   "gulp": {
     "srcDir": "src/",
@@ -84,8 +84,7 @@
     "supertest": "^2.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
