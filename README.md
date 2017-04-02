@@ -140,8 +140,9 @@ The app must also be deployed to heroku.
 https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 - symantic elemtns, roles, aria lables, tab index
+- make sure all current features actually work then optimisation of images, then cross browser, then gracefull degredation.
 
-### 9. Improve design
+### 9. Responsive design
 
 ### 10. Add features
 
