@@ -12,5 +12,8 @@ app.use('/', express.static('bower_components'));
 
 app.get('/*', (req, res) => res.sendFile(`${__dirname}/public/index.html`));
 
+<<<<<<< HEAD:index.js
 
+=======
+>>>>>>> parent of e49a48b... setup specific route for video-index.html request:server.js
 app.listen(config.port, () => console.log(`listening on ${config.port}`));
