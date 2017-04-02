@@ -118,7 +118,7 @@ The app must also be deployed to heroku.
 - trying to get an effect on the show page similar to this: http://www.highsnobiety.com/2017/03/30/mac-demarco-this-old-dog-video/
 - managed it kinda. super happy carried over colour form index page as well.
 - mvp nav bar also created with random video function.
-- POA, a tiny bit further polish (colour scheme). Then refactor all HTML, SCSS and JS. Start thinking about accessability then optimisation, then cross browser, then responsive, then pagination?
+- POA, a tiny bit further polish (colour scheme). Then refactor all HTML, SCSS and JS. Start thinking about accessability then optimisation, then cross browser, then responsive, then graceful degredation, then pagination?
 
 <img width="1375" alt="screen shot 2017-03-31 at 17 00 07" src="https://cloud.githubusercontent.com/assets/20629455/24558694/f4464782-1633-11e7-9596-279e73e10bcf.png">
 <img width="1375" alt="screen shot 2017-03-31 at 16 59 59" src="https://cloud.githubusercontent.com/assets/20629455/24558695/f4575662-1633-11e7-800c-e74eb50d2f88.png">
@@ -126,7 +126,12 @@ The app must also be deployed to heroku.
 - working on fonts sizes and family, going to use em and rem.
 - nav bar done;
 
+![screen shot 2017-04-02 at 11 39 19](https://cloud.githubusercontent.com/assets/20629455/24586451/15618c5e-1799-11e7-9596-e25ece85cda7.png)
+![screen shot 2017-04-02 at 11 39 12](https://cloud.githubusercontent.com/assets/20629455/24586452/156398fa-1799-11e7-9be4-c015f458bb3a.png)
+
 ### 8. Polishing Code
+
+
 
 ### 9. Improve design
 
