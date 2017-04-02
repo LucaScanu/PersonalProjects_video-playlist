@@ -47,3 +47,24 @@ a:hover {
   text-align: center;
   color: $font-color;
 }
+
+//media queries
+// @media (min-width: $sm) {
+//
+//   .video-box__info--small {
+//     $top: $video-box__title--big-font-size + $video-box__date--big-font-size;
+//     top: calc(50% - #{$top/2});
+//   }
+//
+//   .video-box__title--small {
+//     font-size: $video-box__title--big-font-size;
+//   }
+//
+//   .video-box__date--small {
+//     font-size: $video-box__date--big-font-size;
+//   }
+//
+//   .video-sidebox {
+//     display: block;
+//   }
+// }

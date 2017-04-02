@@ -49,3 +49,44 @@
 .video-box__date--small {
   font-size: $video-box__date--small-font-size;
 }
+
+.video-sidebox {
+  display: none;
+  color: $font-color;
+  padding: 0;
+  margin: 0;
+}
+
+.video-sidebox__spacer {
+  padding-bottom: $padding-bottom-16by9;
+}
+
+.video-sidebox__description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+//media queries
+@media (min-width: $sm) {
+
+  .video-box__info--small {
+    $top: $video-box__title--big-font-size + $video-box__date--big-font-size;
+    top: calc(50% - #{$top/2});
+  }
+
+  .video-box__title--small {
+    font-size: $video-box__title--big-font-size;
+  }
+
+  .video-box__date--small {
+    font-size: $video-box__date--big-font-size;
+  }
+
+  .video-sidebox {
+    display: block;
+  }
+}
