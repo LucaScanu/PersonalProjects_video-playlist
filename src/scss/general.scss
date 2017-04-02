@@ -4,18 +4,22 @@ html {
 
 body {
   background-color: $background-color;
+  font-family: $font-family;
 }
 
-.header {
-  background-color: white;
+.video-navbar {
+  text-align: center;
+  color: $font-color;
+  text-transform: uppercase;
 }
 
-nav ul {
-  padding: 0;
+.video-navbar__link {
   margin: 0;
-  li {
-    float: left;
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  line-height: 5rem;
+  font-size: $nav-link-font-size;
+}
+
+.video-navbar__link--main {
+  font-size: $home-link-font-size;
 }
