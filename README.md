@@ -150,6 +150,8 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 ### 9. Deployment
 
+- blocker, vide-index.html is returning the index.html file instead of the view. not sure why.
+
 ### 9. Responsive design
 
 ### 10. Add features
