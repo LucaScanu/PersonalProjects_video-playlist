@@ -150,9 +150,11 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 ### 9. Deployment
 
-- blocker, vide-index.html is returning the index.html file instead of the view. not sure why.
+- blocker, vide-index.html is returning the index.html file instead of the view. not sure why. further inspection, there is no views in the heroku public folder :(.
 
 ### 9. Responsive design
+
+- time to make it look good at different break points.
 
 ### 10. Add features
 
