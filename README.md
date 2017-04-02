@@ -151,13 +151,21 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 ### 9. Deployment
 
 - blocker, vide-index.html is returning the index.html file instead of the view. not sure why. further inspection, there is no views in the heroku public folder :(.
+- <img width="1025" alt="screen shot 2017-04-02 at 18 26 37" src="https://cloud.githubusercontent.com/assets/20629455/24590927/28c6be36-17ee-11e7-9f0c-de7ea287907f.png">
+<img width="1025" alt="screen shot 2017-04-02 at 18 19 38" src="https://cloud.githubusercontent.com/assets/20629455/24590928/28e01372-17ee-11e7-8db9-2d9b8343391e.png">
 
 ### 9. Responsive design
 
-- time to make it look good at different break points.
+- time to make it look OK at different break points.
+- MVP done, mostly bootstrap, some ng-repeat.
+
+![screen shot 2017-04-02 at 21 48 10](https://cloud.githubusercontent.com/assets/20629455/24590925/22045e1e-17ee-11e7-9165-727c1bf0f516.png)
+![screen shot 2017-04-02 at 21 48 03](https://cloud.githubusercontent.com/assets/20629455/24590926/221e3956-17ee-11e7-96aa-c7e0f82641e5.png)
 
 ### 10. Add features
 
 animation in of tiles / between views
 
 ## Known Issues To Be Addressed
+
+- design is questionable.

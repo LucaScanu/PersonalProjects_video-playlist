@@ -62,12 +62,26 @@
 }
 
 .video-sidebox__description {
+  height: $video-info-desc-font-size*8;
+  width: $video-info-desc-font-size*20;
+  font-size: $video-info-desc-font-size;
+  line-height: $video-info-desc-font-size*2;
   position: absolute;
-  top: 0;
-  left: 0;
-  max-height: 100%;
   overflow: hidden;
+  text-align: center;
+  top: calc(50% - #{$video-info-desc-font-size*4});
   margin: 0;
+  padding: 0;
+}
+
+.video-sidebox__description--left {
+  text-align: right;
+  right: 1rem;
+}
+
+.video-sidebox__description--right {
+  text-align: left;
+  left: 1rem;
 }
 
 //media queries

@@ -49,22 +49,27 @@ a:hover {
 }
 
 //media queries
-// @media (min-width: $sm) {
-//
-//   .video-box__info--small {
-//     $top: $video-box__title--big-font-size + $video-box__date--big-font-size;
-//     top: calc(50% - #{$top/2});
-//   }
-//
-//   .video-box__title--small {
-//     font-size: $video-box__title--big-font-size;
-//   }
-//
-//   .video-box__date--small {
-//     font-size: $video-box__date--big-font-size;
-//   }
-//
-//   .video-sidebox {
-//     display: block;
-//   }
-// }
+@media (min-width: $sm) {
+
+  body {
+    padding: 0 5%;
+  }
+
+  .video-navbar__link {
+    line-height: 8rem;
+    font-size: $nav-link-font-size;
+  }
+
+  .video-navbar__link--main {
+    font-size: $home-link-font-size;
+  }
+
+}
+
+@media (min-width: $md) {
+
+  body {
+    padding: 0 10%;
+  }
+
+}

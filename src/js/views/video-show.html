@@ -14,7 +14,7 @@
   </header>
   <main role="main">
     <div class="row">
-      <div class="col-xs-12 iframe-box">
+      <div class="col-xs-12 col-sm-6 iframe-box">
         <div class="iframe-box__image" style="background-image: linear-gradient(to left, rgba({{videoShow.colors[videoShow.index]}}, 0.2), rgba({{videoShow.colors[videoShow.index]}}, 0.9)), url({{videoShow.video.snippet.thumbnails.high.url}})">
           <button ng-click="video.showIframe = !video.showIframe" type="button" name="button" class="iframe-box__button" aria-label="Play {{videoShow.video.snippet.title}} video">
             <i class="fa fa-play iframe-box__icon" aria-hidden="true"></i>
@@ -22,9 +22,7 @@
         </div>
         <iframe ng-if="video.showIframe" class="iframe-box__iframe" type="text/html" src="{{videoShow.trustedSrc}}" frameborder="0"></iframe>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 video-information">
+      <div class="col-xs-12 col-sm-6 video-information">
         <h1 class="video-information__title">{{videoShow.video.snippet.title}}</h1>
         <p class="video-information__published">{{ videoShow.video.snippet.publishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
         <p class="video-information__description">{{videoShow.video.snippet.description}}</p>
