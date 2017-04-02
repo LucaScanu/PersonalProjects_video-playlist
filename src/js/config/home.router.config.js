@@ -2,8 +2,8 @@ angular
   .module('video-playlist')
   .config(homeRouter);
 
-homeRouter.$inject = ['$stateProvider', '$locationProvider'];
-function homeRouter($stateProvider, $locationProvider){
+homeRouter.$inject = ['$stateProvider', '$locationProvider', '$urlRouterProvider'];
+function homeRouter($stateProvider, $locationProvider, $urlRouterProvider){
 
   $locationProvider.html5Mode(true);
 
@@ -22,4 +22,6 @@ function homeRouter($stateProvider, $locationProvider){
       templateUrl: 'js/views/video-show.html',
       controller: 'VideosShowCtrl as videoShow'
     });
+
+  $urlRouterProvider.otherwise('/index');
 }

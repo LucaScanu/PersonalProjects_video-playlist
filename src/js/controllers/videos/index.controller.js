@@ -2,32 +2,22 @@ angular
   .module('video-playlist')
   .controller('VideosIndexCtrl', VideosIndexCtrl);
 
-VideosIndexCtrl.$inject = ['Video'];
-function VideosIndexCtrl(Video){
-  console.log('VideosIndexCtrl');
+VideosIndexCtrl.$inject = ['Video', 'COLORS', '$state'];
+function VideosIndexCtrl(Video, COLORS, $state){
   const vm = this;
 
-  vm.colors = [
-    '234, 196, 53',
-    '252, 170, 103',
-    '242, 103, 31',
-    '201, 27, 38',
-    '156, 15, 95',
-    '96, 4, 122',
-    '61, 126, 170',
-    '255, 228, 122',
-    '222, 97, 97',
-    '38, 87, 235',
-    '239, 50, 217',
-    '137, 255, 253',
-    '58, 97, 134',
-    '137, 37, 62',
-    '78, 205, 196',
-    '85, 98, 112',
-    '161, 255, 206',
-    '250, 255, 209'
-  ];
+  //color array used to create thumbnail overlays
+  vm.colors = COLORS;
 
+  //onclick of random button the below function redirects to a random video
+  vm.goToRandomVideo = () => {
+    $state.go('show', {index: vm.randomVideoIndex});
+  };
+
+  //makes request to youtube API, stores first video seperately
+  //to the rest.  Allows them to have different html markup
+  //and be styled differently.
+  //function to return random index within video array
   Video
     .get()
     .$promise
@@ -36,9 +26,8 @@ function VideosIndexCtrl(Video){
       vm.otherVideos = response.items.filter((video, index) => {
         return (index !== 0);
       });
-      console.log(vm.otherVideos);
+      vm.numberOfVideos = response.items.length;
+      vm.randomVideoIndex = Math.floor(Math.random() * (vm.numberOfVideos - 0)) + 0;
     });
-
-  vm.randomVideoIndex = Math.floor(Math.random() * (10 - 0)) + 0;
 
 }

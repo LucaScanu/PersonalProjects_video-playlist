@@ -4,5 +4,4 @@ angular
 
 MainCtrl.$inject = [];
 function MainCtrl(){
-  console.log('MainCtrl');
 }
