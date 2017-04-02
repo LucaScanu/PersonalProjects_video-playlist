@@ -1,12 +1,13 @@
 .iframe-box {
+  margin: 0;
   padding: 0;
 }
 
-.image {
-  padding-bottom: 56.25%;
+.iframe-box__image {
+  padding-bottom: $padding-bottom-16by9;
 }
 
-button {
+.iframe-box__button {
   position: absolute;
   top: 0;
   left: 0;
@@ -18,10 +19,33 @@ button {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.play-btn-image {
-  height: 30px;
+.iframe-box__icon {
+  color: $font-color;
+  font-size: 4rem;
+}
+
+.iframe-box__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .video-information {
   color: $font-color;
+}
+
+.video-information__title {
+  text-transform: uppercase;
+  font-size: $video-box__title--big-font-size;
+}
+
+.video-information__published {
+  text-transform: uppercase;
+  font-size: $video-box__date--big-font-size
+}
+
+.video-information__description {
+
 }
