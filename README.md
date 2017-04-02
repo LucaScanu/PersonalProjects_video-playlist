@@ -123,7 +123,8 @@ The app must also be deployed to heroku.
 <img width="1375" alt="screen shot 2017-03-31 at 17 00 07" src="https://cloud.githubusercontent.com/assets/20629455/24558694/f4464782-1633-11e7-9596-279e73e10bcf.png">
 <img width="1375" alt="screen shot 2017-03-31 at 16 59 59" src="https://cloud.githubusercontent.com/assets/20629455/24558695/f4575662-1633-11e7-800c-e74eb50d2f88.png">
 
-- working on fonts sizes and family, going to use em and rem
+- working on fonts sizes and family, going to use em and rem.
+- nav bar done;
 
 ### 8. Polishing Code
 
