@@ -141,6 +141,7 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 - symantic elemtns, roles, aria lables, tab index
 - make sure all current features actually work then optimisation of images, then cross browser, then gracefull degredation.
+- fixed prev and next buttons, had to use onclick indtead of ui-sref as ui-sref is read straight away and I need to get a response from the server first
 
 ### 9. Responsive design
 

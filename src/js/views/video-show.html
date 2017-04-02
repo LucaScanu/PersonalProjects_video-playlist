@@ -2,13 +2,13 @@
   <header role="banner">
     <nav class="row video-navbar">
       <div class="col-xs-2">
-        <a><i ui-sref="show({ index: {{videoShow.index - 1}} })" class="fa fa-step-backward video-navbar__link" aria-label="Go to the previous video" tabindex="3"></i></a>
+        <a ng-click="videoShow.goToVideo(videoShow.prevIndex)"><i class="fa fa-step-backward video-navbar__link" aria-label="Go to the previous video" tabindex="3"></i></a>
       </div>
       <div class="col-xs-8">
         <h1 class="video-navbar__link video-navbar__link--main"><a ui-sref="index" aria-label="Go to playlist page" tabindex="1">Playlist</a></h1>
       </div>
       <div class="col-xs-2">
-        <a><i ui-sref="show({ index: {{videoShow.index + 1}} })" class="fa fa-step-forward video-navbar__link" aria-label="Go to the next video" tabindex="2"></i></a>
+        <a ng-click="videoShow.goToVideo(videoShow.nextIndex)"><i class="fa fa-step-forward video-navbar__link" aria-label="Go to the next video" tabindex="2"></i></a>
       </div>
     </nav>
   </header>
@@ -26,7 +26,7 @@
     <div class="row">
       <div class="col-xs-12 video-information">
         <h1 class="video-information__title">{{videoShow.video.snippet.title}}</h1>
-        <p class="video-information__published">Published on {{ videoShow.video.snippet.publishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
+        <p class="video-information__published">{{ videoShow.video.snippet.publishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
         <p class="video-information__description">{{videoShow.video.snippet.description}}</p>
       </div>
     </div>

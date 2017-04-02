@@ -38,15 +38,13 @@
 }
 
 .video-information__title {
-  text-transform: uppercase;
-  font-size: $video-box__title--big-font-size;
+  font-size: $video-info-title-font-size
 }
 
 .video-information__published {
-  text-transform: uppercase;
-  font-size: $video-box__date--big-font-size
+  font-size: $video-info-date-font-size
 }
 
 .video-information__description {
-
+  font-size: $video-info-desc-font-size
 }
