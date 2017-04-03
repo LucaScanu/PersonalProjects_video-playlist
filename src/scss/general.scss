@@ -51,9 +51,9 @@ a:hover {
 //media queries
 @media (min-width: $sm) {
 
-  body {
-    padding: 0 5%;
-  }
+  // body {
+  //   padding: 0 5%;
+  // }
 
   .video-navbar__link {
     line-height: 8rem;
@@ -68,8 +68,8 @@ a:hover {
 
 @media (min-width: $md) {
 
-  body {
-    padding: 0 10%;
-  }
+  // body {
+  //   padding: 0 10%;
+  // }
 
 }
