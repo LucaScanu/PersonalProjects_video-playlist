@@ -26,6 +26,7 @@ function VideosIndexCtrl(Video, COLORS, $state){
       vm.otherVideos = response.items.filter((video, index) => {
         return (index !== 0);
       });
+      vm.otherVideos = response.items;
       vm.numberOfVideos = response.items.length;
       vm.randomVideoIndex = Math.floor(Math.random() * (vm.numberOfVideos - 0)) + 0;
     });

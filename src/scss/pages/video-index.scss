@@ -141,3 +141,22 @@
 //     -o-transition-duration: 0s;
 //     transition-duration: 0s;
 // }
+.video-link {
+  transition: 3s linear all;
+}
+
+.video-link.ng-enter {
+  transition: 3s linear all;
+  opacity: 0;
+  transform: scale(0, 0);
+}
+
+.video-link.ng-enter-stagger {
+    animation-delay: 0.3s;
+    transition-duration: 0s;
+}
+
+.video-link.ng-enter.ng-enter-active {
+  opacity: 1;
+  transform: scale(1, 1);
+}
