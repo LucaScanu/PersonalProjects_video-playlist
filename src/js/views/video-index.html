@@ -23,7 +23,7 @@
           </div>
         </div>
       </a>
-      <a ng-repeat="video in videoIndex.otherVideos track by $index" ui-sref="show({ index: {{$index + 1}} })" aria-label="Go to video {{$index + 2}}" ng-mouseenter="video.opacity = 1" ng-mouseleave="video.opacity = 0">
+      <a ng-repeat="video in videoIndex.otherVideos track by $index" ui-sref="show({ index: {{$index + 1}} })" aria-label="Go to video {{$index + 2}}" ng-mouseenter="video.opacity = 1" ng-mouseleave="video.opacity = 0" animate-on-load class="video-link" ng-animate="'animate'" >
         <div class="col-xs-6 video-box video-box--small">
           <img src="{{video.snippet.thumbnails.high.url}}" alt="{{video.snippet.title}}'s image" class="video-box__image video-box__image--small">
           <div class="video-box__gradient video-box__gradient--small" style="background-image: linear-gradient(to left, rgba({{videoIndex.colors[$index + 1]}}, 0.6), rgba({{videoIndex.colors[$index + 1]}}, 1)); opacity: {{video.opacity || 0.5}}">

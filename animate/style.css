@@ -1,0 +1,22 @@
+.category {
+  display:block;
+  font-size:20px;
+  background:black;
+  color:#fff;
+  margin:10px;
+  padding:10px;
+  text-align:center;
+}
+
+.category.ng-enter {
+    -webkit-animation: zoomIn .8s;
+    animation: zoomIn .8s;
+}
+
+.category.ng-enter-stagger {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}

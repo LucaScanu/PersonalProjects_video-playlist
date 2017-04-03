@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <script data-require="angular.js@*" data-semver="1.4.2" src="https://code.angularjs.org/1.4.2/angular.js"></script>
+  <script src="https://code.angularjs.org/1.4.2/angular-animate.js"></script>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.0/animate.min.css"/>
+  <script src="./script.js"></script>
+</head>
+
+<body ng-controller="categoryController">
+  <div class="category" ng-repeat="category in categories">
+    {{category}}
+  </div>
+  <button ng-click="categories.push('cats')">add</button>
+  <button ng-click="replace()">replace</button>
+</body>
+
+</html>
