@@ -198,6 +198,7 @@ The third feature also proved to be difficult. I found [this](http://plnkr.co/ed
 
 The final app can be seen below and a link is at the top of this document.
 
+<img width="1364" alt="screen shot 2017-04-04 at 00 01 35" src="https://cloud.githubusercontent.com/assets/20629455/24635192/eb1e759c-18c9-11e7-9874-164ebedb4cbe.png">
 <img width="849" alt="screen shot 2017-04-03 at 20 42 57" src="https://cloud.githubusercontent.com/assets/20629455/24628148/34829e46-18ae-11e7-8613-fc2e9737b7c7.png">
 <img width="1321" alt="screen shot 2017-04-03 at 20 42 41" src="https://cloud.githubusercontent.com/assets/20629455/24628149/349ad9fc-18ae-11e7-9dd1-9bb22bac0390.png">
 
