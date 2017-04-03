@@ -87,7 +87,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install && gulp deploy"
+    "postinstall": "gulp deploy"
   },
   "repository": {
     "type": "git",
