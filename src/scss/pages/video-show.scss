@@ -1,11 +1,30 @@
+.video-show {
+  padding: 0 5%;
+}
+
 .iframe-box {
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  padding-bottom: $padding-bottom-16by9;
 }
 
 .iframe-box__image {
-  padding-bottom: $padding-bottom-16by9;
-  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.iframe-box__gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: opacity $gradient-transition;
 }
 
 .iframe-box__button {
@@ -23,6 +42,7 @@
 .iframe-box__icon {
   color: $font-color;
   font-size: 4rem;
+  transition: transform $gradient-transition;
 }
 
 .iframe-box__iframe {
@@ -47,4 +67,10 @@
 
 .video-information__description {
   font-size: $video-info-desc-font-size
+}
+
+@media (min-width: $sm) {
+  .iframe-box {
+    padding-bottom: $padding-bottom-16by9/2;
+  }
 }
