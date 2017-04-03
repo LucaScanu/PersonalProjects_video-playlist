@@ -162,6 +162,8 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 ![screen shot 2017-04-02 at 21 48 10](https://cloud.githubusercontent.com/assets/20629455/24590925/22045e1e-17ee-11e7-9165-727c1bf0f516.png)
 ![screen shot 2017-04-02 at 21 48 03](https://cloud.githubusercontent.com/assets/20629455/24590926/221e3956-17ee-11e7-96aa-c7e0f82641e5.png)
 
+- will change to discription also inside the thumbnail.
+
 ### 10. Add features
 
 animation in of tiles / between views
