@@ -11,7 +11,13 @@
   </header>
   <main role="main">
     <div class="row">
-      <a ng-repeat="video in videoIndex.otherVideos track by $index" ui-sref="show({ index: {{$index}} })" aria-label="Go to video {{$index + 1}}" ng-mouseenter="video.opacity = 1" ng-mouseleave="video.opacity = 0" class="video-link" animate-on-load>
+      <a ng-repeat="video in videoIndex.videos track by $index"
+      ui-sref="show({ index: {{$index}} })"
+      aria-label="Go to video {{$index + 1}}"
+      ng-mouseenter="video.opacity = 1"
+      ng-mouseleave="video.opacity = 0"
+      class="video-link"
+      animate-on-load>
         <div class="video-box" ng-class="{'video-box--big col-xs-12 col-sm-6': $first, 'video-box--small col-xs-6': !$first}">
           <img src="{{video.snippet.thumbnails.high.url}}" alt="{video thumbnail" class="video-box__image">
           <div class="video-box__gradient" style="background-image: linear-gradient(to left, rgba({{videoIndex.colors[$index]}}, 0.6), rgba({{videoIndex.colors[$index]}}, 1)); opacity: {{video.opacity || 0.5}}">

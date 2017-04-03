@@ -1,20 +1,34 @@
-<!DOCTYPE html>
-<html ng-app="app">
-
-<head>
-  <script data-require="angular.js@*" data-semver="1.4.2" src="https://code.angularjs.org/1.4.2/angular.js"></script>
-  <script src="https://code.angularjs.org/1.4.2/angular-animate.js"></script>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.0/animate.min.css"/>
-  <script src="./script.js"></script>
-</head>
-
-<body ng-controller="categoryController">
-  <div class="category" ng-repeat="category in categories" animate-on-load>
-    {{category}}
-  </div>
-  <button ng-click="categories.push('cats')">add</button>
-  <button ng-click="replace()">replace</button>
-</body>
-
-</html>
+<div class="container-fluid">
+  <header role="banner">
+    <nav class="row video-navbar" role="navigation">
+      <div class="col-xs-8 col-xs-offset-2">
+        <h1 class="video-navbar__link video-navbar__link--main"><a ui-sref="index" aria-label="Go to playlist page" tabindex="1">Playlist</a></h1>
+      </div>
+      <div class="col-xs-2">
+        <a><i ng-click="videoIndex.goToRandomVideo()" class="fa fa-random video-navbar__link" aria-label="Go to a random video from the playlist." tabindex="2"></i></a>
+      </div>
+    </nav>
+  </header>
+  <main role="main">
+    <div class="row">
+      <a ng-repeat="video in videoIndex.videos track by $index"
+      ui-sref="show({ index: {{$index}} })"
+      aria-label="Go to video {{$index + 1}}"
+      ng-mouseenter="video.opacity = 1"
+      ng-mouseleave="video.opacity = 0"
+      class="video-link"
+      animate-on-load>
+        <div class="video-box" ng-class="{'video-box--big col-xs-12 col-sm-6': $first, 'video-box--small col-xs-6': !$first}">
+          <img src="{{video.snippet.thumbnails.high.url}}" alt="{video thumbnail" class="video-box__image">
+          <div class="video-box__gradient" style="background-image: linear-gradient(to left, rgba({{videoIndex.colors[$index]}}, 0.6), rgba({{videoIndex.colors[$index]}}, 1)); opacity: {{video.opacity || 0.5}}">
+          </div>
+          <div class="video-box__info" ng-class="{'video-box__info--big': $first, 'video-box__info--small': !$first}">
+            <h3 class="video-box__title" ng-class="{'video-box__title--big': $first, 'video-box__title--small': !$first}" >{{video.snippet.title}}</h3>
+            <p class="video-box__date" ng-class="{'video-box__date--big': $first, 'video-box__date--small': !$first}">{{ video.contentDetails.videoPublishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
+            <p class="video-box__description" style="opacity: {{video.opacity || 0}}">{{ video.snippet.description}}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </main>
+</div>

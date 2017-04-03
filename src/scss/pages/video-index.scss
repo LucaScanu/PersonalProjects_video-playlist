@@ -119,37 +119,15 @@
 
 }
 
-// .video-link {
-//   display:block;
-//   font-size:20px;
-//   background:black;
-//   color:#fff;
-//   margin:10px;
-//   padding:10px;
-//   text-align:center;
-// }
-//
-// .video-link.ng-enter {
-//     -webkit-animation: zoomIn .8s;
-//     animation: zoomIn .8s;
-// }
-//
-// .video-link.ng-enter-stagger {
-//     -webkit-animation-delay: .2s;
-//     animation-delay: .2s;
-//
-//     -o-transition-duration: 0s;
-//     transition-duration: 0s;
-// }
-
+//animations
 .video-link.ng-enter {
-  transition: 1s linear all;
+  transition: 0.5s linear opacity;
   opacity: 0;
 }
 
 .video-link.ng-enter-stagger {
-    animation-delay: 0.3s;
-    transition-duration: 0s;
+  animation-delay: 0.2s;
+  transition-duration: 0s;
 }
 
 .video-link.ng-enter.ng-enter-active {

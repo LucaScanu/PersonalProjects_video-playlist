@@ -175,8 +175,10 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 - animation wasn't working at first but now is
 - had to re-rewrite ng repeat to include first video and attribute big and small modifier classes based on $first in ng repeat.
 - first two wont animate for some reason.
+- blocker: opacity isn't having an effect on the first two videos on the index page. STUMPED
 
 ## Known Issues To Be Addressed
 
 - design is questionable.
-- no need to split videos into first and rest, can just style differently on $index?
+- clipping of p tags
+- first two videos don't animate in

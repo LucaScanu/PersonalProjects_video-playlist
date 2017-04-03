@@ -14,19 +14,13 @@ function VideosIndexCtrl(Video, COLORS, $state){
     $state.go('show', {index: vm.randomVideoIndex});
   };
 
-  //makes request to youtube API, stores first video seperately
-  //to the rest.  Allows them to have different html markup
-  //and be styled differently.
+  //makes request to youtube API, stores videos.
   //function to return random index within video array
   Video
     .get()
     .$promise
     .then(response => {
-      vm.firstVideo = response.items[0];
-      vm.otherVideos = response.items.filter((video, index) => {
-        return (index !== 0);
-      });
-      vm.otherVideos = response.items;
+      vm.videos = response.items;
       vm.numberOfVideos = response.items.length;
       vm.randomVideoIndex = Math.floor(Math.random() * (vm.numberOfVideos - 0)) + 0;
     });
