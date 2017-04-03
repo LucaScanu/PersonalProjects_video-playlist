@@ -206,6 +206,6 @@ The final app can be seen below and a link is at the top of this document.
 
 I am sure there were many more issues than listed below however the ones that immediately sprang to mind were:
 
-1. design is questionable.
-2. clipping of p tags
-3. first two videos don't animate in
+1. I think the overall design could be improved.
+2. The ends of long video descriptions are cut in the video-index view.
+3. The first two videos don't animate in sequence in the video-index view.
