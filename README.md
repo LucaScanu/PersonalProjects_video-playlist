@@ -172,6 +172,9 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 - implemeted on both pages, also done a transform on play button
 - html looking pretty mental
 - animation in of tiles / between views, trying to copy this: http://plnkr.co/edit/2vJT2PNdjEABxPupxX1K?p=preview
+- animation wasn't working at first but now is
+- had to re-rewrite ng repeat to include first video and attribute big and small modifier classes based on $first in ng repeat.
+- first two wont animate for some reason.
 
 ## Known Issues To Be Addressed
 
