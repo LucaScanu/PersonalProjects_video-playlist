@@ -166,6 +166,8 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 ### 10. Add features
 
+- working on increasing the gradient on hover. Turns out this cannot be done, will need to seperate out image and gradient out into a seperate tag, overlay the gradient, and change opacity on hover.
+
 animation in of tiles / between views
 
 ## Known Issues To Be Addressed
