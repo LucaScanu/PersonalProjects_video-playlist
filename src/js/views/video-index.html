@@ -11,7 +11,7 @@
   </header>
   <main role="main">
     <div class="row">
-      <a ui-sref="show({ index: 0 })" aria-label="Go to video 1" ng-mouseenter="videoIndex.firstVideo.opacity = 1" ng-mouseleave="videoIndex.firstVideo.opacity = 0.5">
+      <a ui-sref="show({ index: 0 })" aria-label="Go to video 1" ng-mouseenter="videoIndex.firstVideo.opacity = 1" ng-mouseleave="videoIndex.firstVideo.opacity = 0">
         <div class="col-xs-12 col-sm-6 video-box video-box--big">
           <img src="{{videoIndex.firstVideo.snippet.thumbnails.high.url}}" alt="{{videoIndex.firstVideo.snippet.title}}'s image" class="video-box__image video-box__image--big">
           <div class="video-box__gradient video-box__gradient--big" style="background: linear-gradient(to left, rgba({{videoIndex.colors[0]}}, 0.6), rgba({{videoIndex.colors[0]}}, 1)); opacity: {{videoIndex.firstVideo.opacity || 0.5}}">
@@ -19,19 +19,19 @@
           <div class="video-box__info video-box__info--big">
             <h2 class="video-box__title video-box__title--big">{{videoIndex.firstVideo.snippet.title}}</h2>
             <p class="video-box__date video-box__date--big">{{ videoIndex.firstVideo.snippet.publishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
-            <p class="video-box__description">{{ videoIndex.firstVideo.snippet.description}}</p>
+            <p class="video-box__description" style="opacity: {{videoIndex.firstVideo.opacity || 0}}">{{ videoIndex.firstVideo.snippet.description}}</p>
           </div>
         </div>
       </a>
-      <a ng-repeat="video in videoIndex.otherVideos track by $index" ui-sref="show({ index: {{$index + 1}} })" aria-label="Go to video {{$index + 2}}">
+      <a ng-repeat="video in videoIndex.otherVideos track by $index" ui-sref="show({ index: {{$index + 1}} })" aria-label="Go to video {{$index + 2}}" ng-mouseenter="video.opacity = 1" ng-mouseleave="video.opacity = 0">
         <div class="col-xs-6 video-box video-box--small">
           <img src="{{video.snippet.thumbnails.high.url}}" alt="{{video.snippet.title}}'s image" class="video-box__image video-box__image--small">
-          <div class="video-box__gradient video-box__gradient--small" style="background-image: linear-gradient(to left, rgba({{videoIndex.colors[$index + 1]}}, 0.6), rgba({{videoIndex.colors[$index + 1]}}, 1))">
+          <div class="video-box__gradient video-box__gradient--small" style="background-image: linear-gradient(to left, rgba({{videoIndex.colors[$index + 1]}}, 0.6), rgba({{videoIndex.colors[$index + 1]}}, 1)); opacity: {{video.opacity || 0.5}}">
           </div>
           <div class="video-box__info video-box__info--small">
             <h3 class="video-box__title video-box__title--small">{{video.snippet.title}}</h3>
             <p class="video-box__date video-box__date--small">{{ video.contentDetails.videoPublishedAt | date : date:'yyyy-MM-dd HH:mm:ss Z'}}</p>
-            <p class="video-box__description">{{ video.snippet.description}}</p>
+            <p class="video-box__description" style="opacity: {{video.opacity || 0}}">{{ video.snippet.description}}</p>
           </div>
         </div>
       </a>

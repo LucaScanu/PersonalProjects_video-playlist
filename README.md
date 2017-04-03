@@ -168,9 +168,11 @@ https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 - working on increasing the gradient on hover. Turns out this cannot be done, will need to seperate out image and gradient out into a seperate tag, overlay the gradient, and change opacity on hover.
 - done, but now need to seperate text out, dont want it's opacity to fade in and out.
+- text was blocking hover so using mouseenter and leave instead.
 
 animation in of tiles / between views
 
 ## Known Issues To Be Addressed
 
 - design is questionable.
+- no need to split videos into first and rest, can just style differently on $index?

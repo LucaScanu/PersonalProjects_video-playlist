@@ -21,11 +21,7 @@
   height: 100%;
   width: 100%;
   opacity: 0.5;
-  transition: opacity 2s;
-}
-
-.video-box__gradient:hover {
-    opacity: 1;
+  transition: opacity $gradient-transition;
 }
 
 .video-box__info {
@@ -48,6 +44,7 @@
   margin: 0 auto;
   max-height: 6rem;
   overflow: hidden;
+  transition: opacity $gradient-transition;
 }
 
 .video-box--big {
