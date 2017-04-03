@@ -11,10 +11,10 @@
   </header>
   <main role="main">
     <div class="row">
-      <a ui-sref="show({ index: 0 })" aria-label="Go to video 1">
+      <a ui-sref="show({ index: 0 })" aria-label="Go to video 1" ng-mouseenter="videoIndex.firstVideo.opacity = 1" ng-mouseleave="videoIndex.firstVideo.opacity = 0.5">
         <div class="col-xs-12 col-sm-6 video-box video-box--big">
           <img src="{{videoIndex.firstVideo.snippet.thumbnails.high.url}}" alt="{{videoIndex.firstVideo.snippet.title}}'s image" class="video-box__image video-box__image--big">
-          <div class="video-box__gradient video-box__gradient--big" style="background: linear-gradient(to left, rgba({{videoIndex.colors[0]}}, 0.6), rgba({{videoIndex.colors[0]}}, 1))">
+          <div class="video-box__gradient video-box__gradient--big" style="background: linear-gradient(to left, rgba({{videoIndex.colors[0]}}, 0.6), rgba({{videoIndex.colors[0]}}, 1)); opacity: {{videoIndex.firstVideo.opacity || 0.5}}">
           </div>
           <div class="video-box__info video-box__info--big">
             <h2 class="video-box__title video-box__title--big">{{videoIndex.firstVideo.snippet.title}}</h2>
