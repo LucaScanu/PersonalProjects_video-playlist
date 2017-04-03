@@ -9,12 +9,14 @@
     "src": {
       "js": "src/js/",
       "scss": "src/scss/",
+      "html": "**/*.html",
       "fonts": "src/fonts/",
       "images": "src/images/"
     },
     "dest": {
       "js": "public/js/",
       "css": "public/css/",
+      "html": "**/*.html",
       "fonts": "public/fonts/",
       "images": "public/images/"
     },
